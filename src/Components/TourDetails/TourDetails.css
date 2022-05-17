@@ -1,0 +1,18 @@
+.imaging{
+    max-width: fit-content;
+    border: 5px;
+}
+
+#info{
+    font-weight: bold;
+}
+
+#dest{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn{
+    background-color: rgba(201, 173, 113, 0.322);
+    color: rgb(24, 105, 15);
+    font-weight: bold;
+}

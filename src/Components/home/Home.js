@@ -7,7 +7,7 @@ const tours = require('../../data/db.json')
 export default function Home(){
     return(
         <>
-        <Header/>
+        <Header />
         <Tours data = {tours}/>
         <Footer/>
         </>

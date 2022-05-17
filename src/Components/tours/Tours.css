@@ -1,0 +1,9 @@
+#imaging{
+    max-width: fit-content;
+}
+
+.title{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(131, 27, 27);
+}

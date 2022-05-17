@@ -18,13 +18,15 @@ export default function TourDetails(props) {
         <>
             <div key={result[0].id}>
             <Header />
-                <img src={result[0].image} alt={result[0].name} />
+                <img id="imaging" src={result[0].image} alt={result[0].name} />
                 <ul>
-                    <h2> Name :{result[0].name} </h2>
-                    <h3> price : {result[0].price}</h3><hr />
-                    <p id='info'> info : {!check && result[0].info.substring(0, 50).concat()}
-                        {check && result[0].info} <Button variant="info" onClick={handleLogIn} >{check ? "see less" : "see more"}</Button></p>
+                    <h2 id="dest"> Destination : {result[0].name} </h2>
+                    <h3> Cost : {'JOD '+result[0].price} / Person</h3>
+                    <hr />
+                    <p id='info'> Info : {!check && result[0].info.substring(0, 50).concat()}
+                        {check && result[0].info} <br/><Button id="btn" variant="info" onClick={handleLogIn}>{check ? "see less" : "see more"}</Button></p>
                 </ul>
+                <hr/>
                 <Footer />
             </div>
         </>
